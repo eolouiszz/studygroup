@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #36393f;
+    /* Cor do Discord */
+    color: #ffffff;
+}
+
+/* Estilo da logo */
+.logo {
+    margin-top: 20px;
+}
+
+/* Container para o conteúdo centralizado */
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #2f3136;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo do botão de convite */
+.invite-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #7289da;
+    /* Cor do botão para combinar com o Discord */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.invite-button:hover {
+    background-color: #5b6eae;
+}
